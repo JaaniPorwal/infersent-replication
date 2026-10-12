@@ -1,11 +1,1 @@
-# data and model files (too large for GitHub / re-downloadable)
-*.pt
-*.pth
-*.txt.zip
-glove*
-data/
-SentEval/
-work/
-__pycache__/
-.ipynb_checkpoints/
-.DS_Store
+
