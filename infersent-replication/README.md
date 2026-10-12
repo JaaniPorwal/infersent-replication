@@ -34,13 +34,14 @@ Main model: BiLSTM-max, 4096-d sentence vectors, trained on SNLI, fixed GloVe 84
 | SICK-E | 86.3 | 84.4 | -1.9 |
 | STS14 (Pearson / Spearman) | .68 / .65 | .67 / .66 | -.01 / +.01 |
 
-![Transfer accuracy: paper vs replication](results/figures/transfer_paper_vs_ours.png)
+<img width="1127" height="560" alt="Screenshot 2026-10-12 144900" src="https://github.com/user-attachments/assets/276dee2e-a981-42eb-bcde-fbd7f965fb92" />
+
 
 **Reading the numbers.** The averages and 6 of the 10 tasks are within about 1 point of the paper. The biggest gaps are CR (-2.3), SICK-E (-1.9), MR (-1.7), SST (-1.4) and MPQA (-1.3). Two runs of the same code gave results that differed by about 1 point on some tasks (for example SST 83.1 vs 81.9 and SICK-E 85.9 vs 84.4), so small gaps are within run-to-run noise. The CR gap was present in both runs and is larger than that noise; its cause is not known.
 
 ### SNLI training and errors
 
-![Training curves](results/figures/training_curves.png)
+<img width="875" height="621" alt="Screenshot 2026-10-12 145143" src="https://github.com/user-attachments/assets/0c05165a-75ff-41fe-b04a-db856219c6e1" />
 
 Train accuracy reaches 96.6% while dev accuracy stays near 84%, so the model overfits the training pairs. The best dev accuracy (83.88) was reached at epoch 9.
 
@@ -58,8 +59,10 @@ Neutral is the hardest class. Overall: 8,258 of 9,824 correct (84.1%).
 
 Each of the 4096 dimensions picks one word position. The plots compare the trained encoder with an untrained one (random weights), as in the appendix of the paper.
 
-![Words selected by max-pooling](results/figures/maxpool_selection.png)
-![Position of selected words](results/figures/maxpool_position.png)
+<img width="942" height="587" alt="Screenshot 2026-10-12 145318" src="https://github.com/user-attachments/assets/c04941fd-6137-40ef-a1f3-cbaed1b55a89" />
+
+<img width="1397" height="467" alt="Screenshot 2026-10-12 145354" src="https://github.com/user-attachments/assets/edb95935-8c6a-4ac4-8861-4ab30bf61a0e" />
+
 
 ---
 
@@ -171,3 +174,15 @@ Model checkpoints (`*.pt`, about 200+ MB each) and the datasets are **not** stor
 
 ## Acknowledgements
 Built for the *Advanced Topics in ML* mini project. All credit for the method goes to the paper's authors; this repository is an independent re-implementation for learning purposes.
+
+## Author
+
+### **Janvi Porwal**
+
+**B.Tech – Artificial Intelligence & Data Science**
+
+**SVKM's NMIMS, Indore**
+
+[LinkedIn](https://www.linkedin.com/in/janvi-porwal) · [GitHub](https://github.com/JaaniPorwal)
+
+---
