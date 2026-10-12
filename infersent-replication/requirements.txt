@@ -1,0 +1,10 @@
+torch
+numpy
+pandas
+matplotlib
+nltk
+scipy
+scikit-learn
+# optional
+datasets   # fallback download of SNLI / MultiNLI
+gensim     # only for the optional word2vec bag-of-words baseline

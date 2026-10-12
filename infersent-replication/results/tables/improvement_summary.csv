@@ -1,0 +1,4 @@
+Unnamed: 0_level_0,SNLI dev,SNLI test,micro,macro,epochs,MR,CR,SUBJ,MPQA,SST,TREC,SICK-E
+tag,Unnamed: 1_level_1,Unnamed: 2_level_1,Unnamed: 3_level_1,Unnamed: 4_level_1,Unnamed: 5_level_1,Unnamed: 6_level_1,Unnamed: 7_level_1,Unnamed: 8_level_1,Unnamed: 9_level_1,Unnamed: 10_level_1,Unnamed: 11_level_1,Unnamed: 12_level_1
+"PAPER (SNLI, BiLSTM-Max)",85.0,84.5,85.2,83.7,10,79.9,84.6,92.1,89.8,83.3,88.7,86.3
+BiLSTM-Max_4096,83.9,84.1,85.1,84.0,12,78.2,82.3,92.2,88.5,81.9,89.2,84.4

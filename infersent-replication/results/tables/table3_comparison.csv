@@ -1,0 +1,9 @@
+Unnamed: 0_level_0,dim,NLI dev (ours),NLI dev (paper),NLI test (ours),NLI test (paper),micro (ours),micro (paper),macro (ours),macro (paper),epochs
+Model,Unnamed: 1_level_1,Unnamed: 2_level_1,Unnamed: 3_level_1,Unnamed: 4_level_1,Unnamed: 5_level_1,Unnamed: 6_level_1,Unnamed: 7_level_1,Unnamed: 8_level_1,Unnamed: 9_level_1,Unnamed: 10_level_1
+LSTM,2048,,81.9,,80.7,,79.5,,78.6,
+GRU,4096,,82.4,,81.8,,81.7,,80.9,
+BiGRU-last,4096,,81.3,,80.9,,82.9,,81.7,
+BiLSTM-Mean,4096,,79.0,,78.2,,83.1,,81.7,
+Inner-attention,4096,,82.3,,82.5,,82.1,,81.0,
+HConvNet,4096,,83.7,,83.4,,82.0,,80.9,
+BiLSTM-Max,4096,83.9,85.0,84.1,84.5,85.1,85.2,84.0,83.7,12.0
